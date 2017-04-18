@@ -16,7 +16,8 @@ before_build:
     nuget restore ForumDEG.sln
 
 environment:
-    project_name: 'ForumDEG'
+  project_name: 'ForumDEG'
+  JavaSdkDirectory: C:\Program Files (x86)\Java\jdk1.8.0
 
 # branches to build
 branches:
